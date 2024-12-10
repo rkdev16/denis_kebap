@@ -1,0 +1,5 @@
+
+
+enum OtpVerificationFor{
+  signup,forgotPassword
+}
