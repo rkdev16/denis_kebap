@@ -11,20 +11,18 @@ class AppConsts {
   static const double mobileFontFactor = 1.0;
   static const locale = 'en_US';
 
- // static const String googleApiKey = "AIzaSyAaVnz03Xmd1cZGKPcVcKFHg0rAX4o_BAs";
-  static const String googleApiKey = "AIzaSyAID1OM8czf1MNe4iaPJT9J6ElY9t7b4DI";
+  static const String googleApiKey = "<Google API KEY>";
 
-  static const String stripePK = "pk_test_51M93FFSIJeCwSLvgU1kWPtacn9QirILadodS1k6sVDud0SK2TXblmQ3F1Pidc0pRcvTwDF9aheWRUX5ysf2EaGaP00WFPcHAl7";
-  static const String stripeSK = "sk_test_51M93FFSIJeCwSLvgeh56sVVrPaJpW9Xmc4ZaTJAFJuWIXgrICA9LBlVePWPPwIt6mGFro4MiE2XW6TQj1aPkD3rp00qDfbynPn";
+  static const String stripePK = "<STRIPE KEY>";
+  static const String stripeSK = "<STRIPE KEY>";
 
 
   static double commonFontSizeFactor =
       SizeConfig.isMobile ? mobileFontFactor : tabFontFactor;
 
   static const String baseUrl = "";
-  static const String urlTerms = "https://denis-kebap.at/datenschutzerklaerung/";
-//  static const String urlTerms = "https://www.fullstack.cafe/blog/dart-interview-questions";
-  static const String urlPrivacyPolicy = "https://denis-kebap.at/datenschutzerklaerung/";
+  static const String urlTerms = "<TERMS AND CONDITIONS>";
+  static const String urlPrivacyPolicy = "<PRIVACY POLICY>";
 
 
   static const currencySign = '€';
